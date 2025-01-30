@@ -52,6 +52,7 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "world-ocean-circulation",
@@ -66,15 +67,22 @@
       "name": "ocean_currents"
     }
   ],
-  "osc:themes": [
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "surface-currents"
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.969110Z",
-  "title": "Daily 2D ocean surface currents_North Atlantic",
+  "title": "Daily 2D ocean surface currents North Atlantic",
   "extent": {
     "spatial": {
       "bbox": [
@@ -90,7 +98,7 @@
       "interval": [
         [
           "2010-01-01T00:00:00Z",
-          "2018-12-31T23:59:59Z"
+          "2019-12-31T23:59:59Z"
         ]
       ]
     }

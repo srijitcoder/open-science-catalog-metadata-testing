@@ -52,6 +52,7 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "world-ocean-circulation",
@@ -66,30 +67,37 @@
       "name": "doppler_derived_surface_current"
     }
   ],
-  "osc:themes": [
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "surface-currents"
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.971110Z",
-  "title": "Doppler derived surface current_Agulhas_S1",
+  "title": "Doppler derived surface current Agulhas S1",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          19.9931766896,
-          -34.845355958,
-          20.0417410996,
-          -34.8205312217
+          10,
+          -25,
+          40,
+          -45
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-01T00:00:00Z",
+          "2019-05-01T00:00:00Z",
           "2019-12-31T23:59:59Z"
         ]
       ]

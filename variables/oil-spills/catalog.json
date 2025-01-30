@@ -17,6 +17,18 @@
       "title": "Description"
     },
     {
+      "rel": "child",
+      "href": "../../products/oil-spill-transport-world-ocean-circulation-golden-trader/collection.json",
+      "type": "application/json",
+      "title": "Oceanic/Golden Trader Oil Spill transport based on Lagrangian drift data simulation"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/oil-spill-transport-world-ocean-circulation-sanchi/collection.json",
+      "type": "application/json",
+      "title": "Oceanic/Sanchi Oil Spill transport based on Lagrangian drift data simulation"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -26,6 +38,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/oil-spills/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
     }
   ],
   "stac_extensions": [
@@ -36,7 +54,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Land"
+          "id": "oceans"
         }
       ]
     }

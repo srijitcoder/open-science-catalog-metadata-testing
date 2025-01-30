@@ -52,11 +52,12 @@
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
   "osc:project": "world-ocean-circulation",
-  "osc:status": "ongoing",
-  "osc:region": "Agulhas",
+  "osc:status": "completed",
+  "osc:region": "global",
   "osc:type": "product",
   "created": "2021-11-30T00:00:00Z",
   "start_datetime": "2019-01-01T00:00:00Z",
@@ -66,31 +67,38 @@
       "name": "wind_stress_vector"
     }
   ],
-  "osc:themes": [
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "wind-stress"
   ],
   "osc:missions": [],
   "updated": "2024-09-12T20:32:22.968110Z",
-  "title": "Wind stress vector (& anomalies)_Hourly_ERA5",
+  "title": "Wind stress vector (& anomalies) Hourly ERA5",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          19.9931766896,
-          -34.845355958,
-          20.0417410996,
-          -34.8205312217
+          -90,
+          -180,
+          90,
+          180
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-01T00:00:00Z",
-          "2019-12-31T23:59:59Z"
+          "2010-01-01T00:00:00Z",
+          "2020-12-31T23:59:59Z"
         ]
       ]
     }
