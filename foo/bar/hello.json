@@ -1,9 +1,7 @@
 {
-  "foo": "vfddfvdfvf",
+  "foo": "cdcddc",
   "id": "",
-  "bar": true,
+  "bar": false,
   "custom": "",
-  "dynamicEnum": [
-    "README.md"
-  ]
+  "dynamicEnum": []
 }
