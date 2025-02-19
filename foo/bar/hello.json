@@ -1,3 +1,9 @@
 {
-  "foo": "Initial content for file creation"
+  "foo": "d ddd d ",
+  "id": "",
+  "bar": true,
+  "custom": "",
+  "dynamicEnum": [
+    "README.md"
+  ]
 }
