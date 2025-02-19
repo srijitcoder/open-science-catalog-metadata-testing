@@ -1,9 +1,10 @@
 {
-  "foo": "Initial content for file creationsdsddsdsdsdddsdsdsdfssddsdsdssdsd",
+  "foo": "Initial content for file creationsdsddssdddsdsdsdddsdsdsdfssddsdsdssdsd",
   "id": "",
-  "bar": false,
+  "bar": true,
   "custom": "",
   "dynamicEnum": [
+    "README.md",
     "README.md",
     "README.md"
   ]
