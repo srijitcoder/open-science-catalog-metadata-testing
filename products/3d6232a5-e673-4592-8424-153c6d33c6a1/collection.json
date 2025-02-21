@@ -1,4 +1,54 @@
 {
   "id": "3d6232a5-e673-4592-8424-153c6d33c6a1",
-  "title": "trhtrhrthh"
+  "title": "trhtrhrthh",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [
+    {
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "title": "Magnetosphere Ionosphere",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "created": "",
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "3d-earth",
+  "osc:region": "",
+  "osc:missions": [],
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
 }
