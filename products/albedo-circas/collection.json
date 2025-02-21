@@ -58,19 +58,19 @@
       "title": "Variable: Albedo"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-3/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-3"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/albedo-circas/collection.json",
       "type": "application/json"
     },
     {
+      "rel": "related",
       "href": "../../themes/atmosphere/catalog.json",
-      "title": "Atmosphere",
+      "type": "application/json",
+      "title": "Atmosphere"
+    },
+    {
+      "href": "../../eo-missions/smap/catalog.json",
+      "title": "SMAP",
       "type": "application/json",
       "rel": "related"
     }
@@ -104,7 +104,7 @@
     "albedo"
   ],
   "osc:missions": [
-    "sentinel-3"
+    "smap"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "Albedo_Regional_S3A/SLSTR",
