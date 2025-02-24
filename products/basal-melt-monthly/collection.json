@@ -34,12 +34,6 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/cryosphere/catalog.json",
-      "type": "application/json",
-      "title": "Theme: Cryosphere"
-    },
-    {
-      "rel": "related",
       "href": "../../variables/basal-melt-rate/catalog.json",
       "type": "application/json",
       "title": "Variable: Basal Melt Rate"
@@ -54,6 +48,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/basal-melt-monthly/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "type": "application/json",
+      "title": "Magnetosphere Ionosphere"
     }
   ],
   "stac_extensions": [
@@ -73,10 +73,10 @@
   ],
   "themes": [
     {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
-          "id": "cryosphere"
+          "id": "magnetosphere-ionosphere"
         }
       ]
     }
@@ -93,10 +93,10 @@
     "spatial": {
       "bbox": [
         [
-          -90.0,
-          60.0,
-          -20.0,
-          82.0
+          -90,
+          60,
+          -20,
+          82
         ]
       ]
     },
@@ -115,5 +115,8 @@
     "Basal Melt",
     "Glacial Processes",
     "Ice Sheets and Ice Shelves"
-  ]
+  ],
+  "providers": [],
+  "summaries": [],
+  "assets": {}
 }
