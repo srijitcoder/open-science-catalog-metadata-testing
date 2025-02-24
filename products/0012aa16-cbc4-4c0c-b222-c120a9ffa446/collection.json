@@ -1,4 +1,57 @@
 {
   "id": "0012aa16-cbc4-4c0c-b222-c120a9ffa446",
-  "title": "grgrggrgrgrgr"
+  "title": "grgrggrgrgrgr",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [
+    {
+      "href": "../../projects/4d-antarctica/collection.json",
+      "title": "4D-ANTARCTICA",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "created": "",
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "4d-antarctica",
+  "osc:region": "",
+  "osc:missions": [],
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
 }
