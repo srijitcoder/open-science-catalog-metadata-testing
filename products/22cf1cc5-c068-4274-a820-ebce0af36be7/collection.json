@@ -1,4 +1,79 @@
 {
   "id": "22cf1cc5-c068-4274-a820-ebce0af36be7",
-  "title": "thtrhth"
+  "title": "thtrhth",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "efcrgvdtbvfdt ",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-20T00:00:00Z",
+          "2025-02-28T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [
+    {
+      "href": "../../themes/atmosphere/catalog.json",
+      "title": "Atmosphere",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../variables/14-ch4-delta/catalog.json",
+      "title": "(14)CH4 Delta",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../eo-missions/altika/catalog.json",
+      "title": "ALtiKa",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../projects/4datlantic-ebus-primus/collection.json",
+      "title": "4DATLANTIC EBUS PRIMUS",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "created": "",
+  "osc:type": "product",
+  "osc:status": "completed",
+  "osc:project": "4datlantic-ebus-primus",
+  "osc:region": "dfeerff",
+  "osc:missions": [
+    "altika"
+  ],
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "14-ch4-delta"
+  ],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
 }
