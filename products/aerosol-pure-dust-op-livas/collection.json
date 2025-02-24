@@ -51,9 +51,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/cryosphere/catalog.json",
+      "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
-      "title": "Cryosphere"
+      "title": "Atmosphere"
     }
   ],
   "stac_extensions": [
@@ -76,7 +76,7 @@
       "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
-          "id": "cryosphere"
+          "id": "atmosphere"
         }
       ]
     }
