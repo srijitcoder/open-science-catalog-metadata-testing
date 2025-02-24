@@ -1,6 +1,9 @@
 {
   "id": "4cb1583d-88a9-4f17-b939-bbde8bb0083e",
-  "foo": "fgtbnyhhhn",
+  "foo": "fgtbnyhhhngnhnghn",
   "bar": false,
-  "custom": ""
+  "custom": "",
+  "dynamicEnum": [
+    "README.md"
+  ]
 }
