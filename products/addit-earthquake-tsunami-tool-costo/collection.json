@@ -13,12 +13,14 @@
     {
       "rel": "via",
       "href": "https://www.mdpi.com/2072-4292/11/16/1894/htm#app1-remotesensing-11-01894",
-      "title": "Access"
+      "title": "Access",
+      "type": ""
     },
     {
       "rel": "cite-as",
       "href": "https://doi.org/10.3390/rs11161894",
-      "title": "DOI"
+      "title": "DOI",
+      "type": ""
     },
     {
       "rel": "parent",
@@ -31,12 +33,6 @@
       "href": "../../projects/contribution-of-swarm-data-to-the-prompt-detection-of-tsunamis-and-other-natural-hazards-costo/collection.json",
       "type": "application/json",
       "title": "Project: COSTO"
-    },
-    {
-      "rel": "related",
-      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
-      "type": "application/json",
-      "title": "Theme: Magnetosphere Ionosphere"
     },
     {
       "rel": "related",
@@ -53,7 +49,14 @@
     {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/addit-earthquake-tsunami-tool-costo/collection.json",
-      "type": "application/json"
+      "type": "application/json",
+      "title": ""
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Land"
     }
   ],
   "stac_extensions": [
@@ -70,15 +73,16 @@
   "sci:doi": "10.3390/rs11161894",
   "cf:parameter": [
     {
-      "name": "earthquake_tsunami_tool"
+      "name": "earthquake_tsunami_tool",
+      "unit": ""
     }
   ],
   "themes": [
     {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
-          "id": "magnetosphere-ionosphere"
+          "id": "land"
         }
       ]
     }
@@ -115,5 +119,8 @@
   "keywords": [
     "Sun-Earth Interactions",
     "Ionosphere/Magnetosphere Dynamics"
-  ]
+  ],
+  "providers": [],
+  "summaries": [],
+  "assets": {}
 }
