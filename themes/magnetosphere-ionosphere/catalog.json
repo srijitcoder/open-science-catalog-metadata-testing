@@ -29,12 +29,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/addit-earthquake-tsunami-tool-costo/collection.json",
-      "type": "application/json",
-      "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM"
-    },
-    {
-      "rel": "child",
       "href": "../../products/chaos-field-model-4d-earth-swarm/collection.json",
       "type": "application/json",
       "title": "CHAOS field model"
