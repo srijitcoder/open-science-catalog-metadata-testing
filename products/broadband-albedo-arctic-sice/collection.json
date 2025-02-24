@@ -49,6 +49,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/broadband-albedo-arctic-sice/collection.json",
       "type": "application/json"
+    },
+    {
+      "href": "../../themes/oceans/catalog.json",
+      "title": "Oceans",
+      "type": "application/json",
+      "rel": "related"
     }
   ],
   "stac_extensions": [
@@ -68,10 +74,10 @@
   ],
   "themes": [
     {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
-          "id": "cryosphere"
+          "id": "oceans"
         }
       ]
     }
@@ -112,5 +118,8 @@
     "Land Surface",
     "Surface Radiative Properties",
     "Terrestrial Hydrosphere"
-  ]
+  ],
+  "providers": [],
+  "summaries": [],
+  "assets": {}
 }
