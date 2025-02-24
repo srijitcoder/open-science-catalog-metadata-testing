@@ -4,7 +4,7 @@
   "stac_version": "1.0.0",
   "stac_extensions": [],
   "type": "Collection",
-  "description": "",
+  "description": "tgbftbththr",
   "keywords": [],
   "license": "various",
   "extent": {
@@ -29,6 +29,24 @@
       "title": "4D-ANTARCTICA",
       "type": "application/json",
       "rel": "related"
+    },
+    {
+      "href": "../../themes/land/catalog.json",
+      "title": "Land",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../variables/14-ch4-delta/catalog.json",
+      "title": "(14)CH4 Delta",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/alos-4/catalog.json",
+      "type": "application/json",
+      "title": "ALOS-4"
     }
   ],
   "created": "",
@@ -36,18 +54,22 @@
   "osc:status": "planned",
   "osc:project": "4d-antarctica",
   "osc:region": "",
-  "osc:missions": [],
+  "osc:missions": [
+    "alos-4"
+  ],
   "themes": [
     {
       "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
-          "id": "atmosphere"
+          "id": "land"
         }
       ]
     }
   ],
-  "osc:variables": [],
+  "osc:variables": [
+    "14-ch4-delta"
+  ],
   "cf:parameter": [
     {
       "name": "",
