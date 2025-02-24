@@ -1,4 +1,54 @@
 {
   "id": "ffeaaff6-16a7-4747-aeaa-486900133b12",
-  "title": "rttrhgbyth"
+  "title": "rttrhgbythghgghghhg",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [
+    {
+      "href": "../../themes/cryosphere/catalog.json",
+      "title": "Cryosphere",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "created": "",
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "",
+  "osc:region": "",
+  "osc:missions": [],
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
 }
