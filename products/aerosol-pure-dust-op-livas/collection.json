@@ -51,9 +51,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/solid-earth/catalog.json",
+      "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
-      "title": "Solid Earth"
+      "title": "Oceans"
     }
   ],
   "stac_extensions": [
@@ -76,7 +76,7 @@
       "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
-          "id": "solid-earth"
+          "id": "oceans"
         }
       ]
     }
