@@ -29,6 +29,12 @@
       "title": "AMSR2",
       "type": "application/json",
       "rel": "related"
+    },
+    {
+      "href": "../../variables/above-ground-biomass/catalog.json",
+      "title": "Above-Ground Biomass",
+      "type": "application/json",
+      "rel": "related"
     }
   ],
   "created": "",
@@ -49,7 +55,9 @@
       ]
     }
   ],
-  "osc:variables": [],
+  "osc:variables": [
+    "above-ground-biomass"
+  ],
   "cf:parameter": [
     {
       "name": "",
