@@ -1,4 +1,59 @@
 {
   "id": "8a7f1982-9fb5-4ae8-8ad1-45a3a47cc4bb",
-  "title": "rgtbrtbrh"
+  "title": "rgtbrtbrh",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [
+    {
+      "href": "../../eo-missions/amsr2/catalog.json",
+      "title": "AMSR2",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "created": "",
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "",
+  "osc:region": "",
+  "osc:missions": [
+    "amsr2"
+  ],
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
 }
