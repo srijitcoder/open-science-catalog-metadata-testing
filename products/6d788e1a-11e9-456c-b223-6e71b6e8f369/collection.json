@@ -1,10 +1,10 @@
 {
-  "id": "6d788e1a-11e9-456c-b223-6e71b6e8f369",
-  "title": "dfsffssg",
+  "id": "f195f2a2-0592-43fe-9eea-32a818e5eeca",
+  "title": "bootstrap2",
   "stac_version": "1.0.0",
   "stac_extensions": [],
   "type": "Collection",
-  "description": "- ff ff \n- ",
+  "description": "- item 1\n- ",
   "keywords": [],
   "license": "various",
   "extent": {
@@ -13,10 +13,7 @@
     },
     "temporal": {
       "interval": [
-        [
-          "",
-          ""
-        ]
+        null
       ]
     }
   },
@@ -30,16 +27,7 @@
   "osc:project": "",
   "osc:region": "",
   "osc:missions": [],
-  "themes": [
-    {
-      "scheme": "OSC:SCHEME:THEMES",
-      "concepts": [
-        {
-          "id": "atmosphere"
-        }
-      ]
-    }
-  ],
+  "themes": [],
   "osc:variables": [],
   "cf:parameter": [
     {
