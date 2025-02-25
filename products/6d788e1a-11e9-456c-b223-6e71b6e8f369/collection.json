@@ -1,4 +1,50 @@
 {
   "id": "6d788e1a-11e9-456c-b223-6e71b6e8f369",
-  "title": "dfsffssg"
+  "title": "dfsffssg",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "vfdfvvdv",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [],
+  "created": "",
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "",
+  "osc:region": "",
+  "osc:missions": [],
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
 }
