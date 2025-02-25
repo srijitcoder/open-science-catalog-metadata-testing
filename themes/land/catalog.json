@@ -385,6 +385,12 @@
       "href": "../../products/0012aa16-cbc4-4c0c-b222-c120a9ffa446/collection.json",
       "type": "application/json",
       "title": "grgrggrgrgr345445gr"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/b84cf87b-3a1c-42d3-81e7-1146c785fe1b/collection.json",
+      "type": "application/json",
+      "title": "gfhhfhfhh"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",
