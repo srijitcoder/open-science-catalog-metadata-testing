@@ -13,10 +13,7 @@
     },
     "temporal": {
       "interval": [
-        [
-          "",
-          ""
-        ]
+        null
       ]
     }
   },
