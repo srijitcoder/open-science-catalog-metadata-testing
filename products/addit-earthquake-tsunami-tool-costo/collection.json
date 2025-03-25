@@ -59,8 +59,8 @@
       "title": ""
     },
     {
-      "href": "../../themes/cryosphere/catalog.json",
-      "title": "Cryosphere",
+      "href": "../../themes/land/catalog.json",
+      "title": "Land",
       "type": "application/json",
       "rel": "related"
     }
@@ -88,7 +88,9 @@
       "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
-          "id": "cryosphere"
+          "id": "land",
+          "title": "Land",
+          "url": "./land/catalog.json"
         }
       ]
     }
