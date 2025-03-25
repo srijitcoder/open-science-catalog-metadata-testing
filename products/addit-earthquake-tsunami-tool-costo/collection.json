@@ -88,9 +88,7 @@
       "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
-          "id": "land",
-          "title": "Land",
-          "url": "./land/catalog.json"
+          "id": "land"
         }
       ]
     }
