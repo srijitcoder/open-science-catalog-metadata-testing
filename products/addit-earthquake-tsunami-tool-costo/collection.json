@@ -13,12 +13,14 @@
     {
       "rel": "via",
       "href": "https://www.mdpi.com/2072-4292/11/16/1894/htm#app1-remotesensing-11-01894",
-      "title": "Access"
+      "title": "Access",
+      "type": "application/json"
     },
     {
       "rel": "cite-as",
       "href": "https://doi.org/10.3390/rs11161894",
-      "title": "DOI"
+      "title": "DOI",
+      "type": ""
     },
     {
       "rel": "parent",
@@ -53,7 +55,14 @@
     {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/addit-earthquake-tsunami-tool-costo/collection.json",
-      "type": "application/json"
+      "type": "application/json",
+      "title": ""
+    },
+    {
+      "href": "../../themes/cryosphere/catalog.json",
+      "title": "Cryosphere",
+      "type": "application/json",
+      "rel": "related"
     }
   ],
   "stac_extensions": [
@@ -70,15 +79,16 @@
   "sci:doi": "10.3390/rs11161894",
   "cf:parameter": [
     {
-      "name": "earthquake_tsunami_tool"
+      "name": "earthquake_tsunami_tool",
+      "unit": ""
     }
   ],
   "themes": [
     {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
-          "id": "magnetosphere-ionosphere"
+          "id": "cryosphere"
         }
       ]
     }
@@ -115,5 +125,9 @@
   "keywords": [
     "Sun-Earth Interactions",
     "Ionosphere/Magnetosphere Dynamics"
-  ]
+  ],
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "osc:experiment": ""
 }
