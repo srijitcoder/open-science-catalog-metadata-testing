@@ -571,12 +571,6 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/cryosphere/catalog.json",
       "type": "application/json"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/addit-earthquake-tsunami-tool-costo/collection.json",
-      "type": "application/json",
-      "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM"
     }
   ],
   "updated": "2024-08-27T17:27:42.199831Z",
