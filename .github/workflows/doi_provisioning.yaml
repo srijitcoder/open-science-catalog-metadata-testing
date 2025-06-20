@@ -14,8 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     env:
-      DATACITE_USER: ${{ secrets.DATACITE_USER }}
-      DATACITE_P: ${{ secrets.DATACITE_P }}
+      #DATACITE_USER: ${{ secrets.DATACITE_USER }}
+      #DATACITE_P: ${{ secrets.DATACITE_P }}
+      DATACITE_USER: ZOPQ.VJOWFY
+      DATACITE_P: EuracResearch2021
       
     steps:
       - name: Checkout repository
