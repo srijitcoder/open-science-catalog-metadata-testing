@@ -17,22 +17,26 @@ import requests
 
 from process_json import *
 
+# urls for 'test' and 'production'
 data_cite_url_prod = "https://api.datacite.org"
 data_cite_url_test = "https://api.test.datacite.org"
 
+# datacite user and cred.
 data_cite_user = os.getenv('DATACITE_USER')
-data_cide_p =  os.getenv('DATACITE_P')
+data_cite_p =  os.getenv('DATACITE_P')
 
+# doi prefix and catalog url
 doi_prefix = "10.80823"
 catalog_base_url = "https://opensciencedata.esa.int/products/"
 
 # todo: set the url to 'test' or 'production' environment
 data_cite_url = data_cite_url_test
 
+# activate log (optional), not necessary when run on pipeline
 log_active = False
 log_file = "metadata_doi_provisioning"
 
-# if 'True' writes the doi decorated json metadata to a new file -> used for testing
+# used for testing -> if 'True' writes the doi decorated json metadata to a new test file
 writeMtdToNewFile = False
 
 # prints to stdout and to log file if active (log_active = True)
@@ -69,20 +73,19 @@ def retrieveDoiMtd(doi_val):
       return doi_map
   except:
     printLog(f"Error in retrieving doi: {res.status_code}")
+    exit -1
 
 
 def isDoiMtdUpToDate(mtd_map, doi_map):
   printLog("checking if datacite metadata is up to date")
-  printLog("mtd_map:")
-  # to be implemented
-  #printLog(mtd_map)
-  #printLog("doi_map:")
-  #printLog(doi_map)
-  return (mtd_map["publ_year"] == doi_map["publicationYear"])
+  is_up_to_date = (mtd_map["publ_year"] == (doi_map["data"]["attributes"]["publicationYear"]))
+  is_up_to_date = is_up_to_date and ((mtd_map["title"] == (doi_map["data"]["attributes"]["titles"][0]["title"])))
+  print("is_up_to_date: " + str(is_up_to_date))
+  return is_up_to_date
 
 # post the doi publish request
 def postDoiReq(mtd_map):
-  title=mtd_map["title"]
+
   publ_year=mtd_map["publ_year"]
 
   # todo: update prefix
@@ -115,11 +118,11 @@ def postDoiReq(mtd_map):
   }
   """
 
-  # note: multiline strings appearently have problems with json content when formatting variables, so we use a siple replace
+  # note: multiline strings appearently have problems with json content when formatting variables, so we use a simple replace
 
   req_obj = req_obj.replace("doi_prefix_p", doi_prefix)
   req_obj = req_obj.replace("producer_p", mtd_map["producer"])
-  req_obj = req_obj.replace("title_p", title)
+  req_obj = req_obj.replace("title_p", mtd_map["title"])
   req_obj = req_obj.replace("publ_year_p", f"{publ_year}")
   req_obj = req_obj.replace("resource_type_p", mtd_map["resource_type"])
   req_obj = req_obj.replace("publisher_p", mtd_map["publisher"])
@@ -131,7 +134,7 @@ def postDoiReq(mtd_map):
 
   try:
     url = data_cite_url + "/dois"
-    res = requests.post(url, data = req_obj, auth = (data_cite_user, data_cide_p), headers={"Content-Type":"application/vnd.api+json"})
+    res = requests.post(url, data = req_obj, auth = (data_cite_user, data_cite_p), headers={"Content-Type":"application/vnd.api+json"})
 
     printLog(f"status: {res.status_code}")
 
@@ -141,30 +144,31 @@ def postDoiReq(mtd_map):
 
   if(res.status_code != 201):
     printLog("response: " + res.text)
+    exit -1
 
   return res
 
 # update do 
 def postDoiMtdUpdate(doi_id, mtd_map):
-  printLog("updating doi mtd fields...")
+  printLog("updating doi metadata fields...")
   req_obj="""
   {
     "data": {
       "type": "dois",
       "attributes": {
-        "publicationYear": publ_year_p
+        "publicationYear": "publ_year_p"
       }
     }
   }
   """
   publ_year = mtd_map["publ_year"]
-  req_obj = req_obj.replace("publ_year_p", publ_year)
+  req_obj = req_obj.replace("publ_year_p", f"{publ_year}")
 
   printLog("posting doi update...")
   try:
     url = data_cite_url + "/dois/" + doi_id
-    printLog("URL: " + url)
-    res = requests.post(url, data = req_obj, auth = (data_cite_user, data_cide_p), headers={"Content-Type":"application/vnd.api+json"})
+    #printLog("req_obj: " + req_obj)
+    res = requests.post(url, data = req_obj, auth = (data_cite_user, data_cite_p), headers={"Content-Type":"application/vnd.api+json"})
 
     printLog(f"status: {res.status_code}")
   except:
@@ -173,6 +177,7 @@ def postDoiMtdUpdate(doi_id, mtd_map):
 
   if(res.status_code != 200):
     printLog("response: " + res.text)
+  return res
 
 
 # extract doi
@@ -189,9 +194,6 @@ def insertDoi(json_file_name, doi_val):
       data["sci:doi"] = doi_val
       
       modified_json = json.dumps(data, indent=2)
-
-    #printLog("modified_json:")
-    #printLog(modified_json)
 
     if(writeMtdToNewFile):
       json_file_name = json_file_name + "TEST"
@@ -234,7 +236,7 @@ if __name__ == '__main__':
 
     url_attr = catalog_base_url + mtd_fields_json.id + "/collection"
 
-    print("url_attr: " + url_attr)
+    #print("url_attr: " + url_attr)
 
     mtd_fields =  {
       "title": mtd_fields_json.title,
@@ -281,15 +283,16 @@ if __name__ == '__main__':
         if(insertDoi(file_to_reg, doi_elem)):
           printLog("doi inserted successfully in metadata")
         else:
-          printLog("Error in inserting doi")
+          printLog("Error in inserting doi in json metadata")
+          exit -1
     else:
-      printLog("doi already exists: " + mtd_fields["doi"])
+      printLog("doi: " + mtd_fields["doi"])
 
       doi_prefix_mtd = extractPrefix(mtd_fields["doi"])
 
       printLog("doi_prefix_mtd: " + doi_prefix_mtd)
 
-      printLog("checking if datacite metadata is up to date")
+      printLog("retrieving datacite metadata...")
 
       doi_map = retrieveDoiMtd(mtd_fields["doi"])
 
@@ -303,13 +306,15 @@ if __name__ == '__main__':
 
           resp = postDoiMtdUpdate(mtd_fields["doi"], mtd_fields)
 
-          if(resp.status_code == 201):
+          if(resp.status_code == 200):
             printLog("update successful")
           else:
             printLog("Error in updating doi metadata")
+            exit -1
         else:
           printLog("doi prefix mismatch, skipping...")
       else:
         printLog("doi metadata is up to date")
   else:
       printLog("no file provided")
+      exit -1
