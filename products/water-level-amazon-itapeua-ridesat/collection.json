@@ -2,7 +2,8 @@
   "type": "Collection",
   "id": "water-level-amazon-itapeua-ridesat",
   "stac_version": "1.0.0",
-  "description": "The database includes the temporal series of water level from altimetry (multi-mission series from SARAL/AltiKa, Cryosat-2 and Sentinel-3) and multispetral sensors (MODIS from Terra and Aqua and OLCI from Sentinel-3A and 3B)",
+  "description": "prova update",
+  "sci:citation": "Vega GC, Pertierra LR, Olalla-T\u00e1rraga M\u00c1 (2017) Data from: MERRAclim, a high-resolution global dataset of remotely sensed bioclimatic variables for ecological modelling. Dryad Digital Repository.",
   "links": [
     {
       "rel": "root",
@@ -116,7 +117,7 @@
     "aqua-eos-pm-1"
   ],
   "updated": "2024-09-12T20:32:06.251108Z",
-  "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission",
+  "title": "NEW TEST last 2 - Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission",
   "extent": {
     "spatial": {
       "bbox": [
@@ -142,5 +143,28 @@
     "Terrestrial Hydrosphere",
     "Surface Water",
     "Surface Water Processes/Measurements"
+  ],
+  "providers": [
+    {
+      "url": "https://land.copernicus.eu/en/products/soil-moisture/daily-surface-soil-moisture-v1.0",
+      "name": "Copernicus Land Monitoring Service",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "url": "https://www.copernicus.eu/en",
+      "name": "Copernicus",
+      "roles": [
+        "licensor"
+      ]
+    },
+    {
+      "url": "http://www.eurac.edu",
+      "name": "Eurac Research - Institute for Earth Observation",
+      "roles": [
+        "host"
+      ]
+    }
   ]
 }
