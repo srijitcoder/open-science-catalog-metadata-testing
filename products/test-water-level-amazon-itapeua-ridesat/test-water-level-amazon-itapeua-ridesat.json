@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "test-water-level-amazon-itapeua-ridesat",
+  "id": "water-level-amazon-itapeua-ridesat",
   "stac_version": "1.0.0",
-  "description": "The database includes the temporal series of water level from altimetry (multi-mission series from SARAL/AltiKa, Cryosat-2 and Sentinel-3) and multispetral sensors (MODIS from Terra and Aqua and OLCI from Sentinel-3A and 3B)",
+  "description": "prova update",
   "sci:citation": "Vega GC, Pertierra LR, Olalla-T\u00e1rraga M\u00c1 (2017) Data from: MERRAclim, a high-resolution global dataset of remotely sensed bioclimatic variables for ecological modelling. Dryad Digital Repository.",
   "links": [
     {
@@ -117,7 +117,7 @@
     "aqua-eos-pm-1"
   ],
   "updated": "2024-09-12T20:32:06.251108Z",
-  "title": "Test - Water level from altimetry Temporal series L3 Products Database Amazon Itapeua Multimission",
+  "title": "NEW TEST last - Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission",
   "extent": {
     "spatial": {
       "bbox": [
@@ -166,5 +166,5 @@
         "host"
       ]
     }
-  ]  
+  ]
 }
