@@ -43,8 +43,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
+          if [ -f ./procedures/requirements.txt ]; then
+            pip install -r ./procedures/requirements.txt
           else
             echo "⚠️ requirements.txt non trovato, salto l'installazione."
           fi
