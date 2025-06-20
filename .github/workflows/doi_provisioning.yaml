@@ -53,6 +53,7 @@ jobs:
         run: |
           echo "📄 JSON file path ricevuto: '${{ steps.get_json.outputs.json_file }}'"
           if [ -n "${{ steps.get_json.outputs.json_file }}" ]; then
+            echo "DATACITE_USER: ${{ secrets.DATACITE_USER }} ; DATACITE_P: ${{ secrets.DATACITE_P }}"
             python ./procedures/metadata_doi_provisioning.py "${{ steps.get_json.outputs.json_file }}"
           else
             echo "⏭️ Nessun file JSON da elaborare, lo script non verrà eseguito."
