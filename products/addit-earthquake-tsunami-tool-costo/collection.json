@@ -1,0 +1,52 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "",
+  "type": "Collection",
+  "title": "dfdfdfdf",
+  "description": "",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": {},
+  "assets": {},
+  "links": [],
+  "created": "",
+  "updated": "",
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "",
+  "osc:region": "",
+  "osc:variables": [],
+  "osc:missions": [],
+  "osc:experiment": "",
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
+}
