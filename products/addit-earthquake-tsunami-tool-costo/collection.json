@@ -75,10 +75,10 @@
   ],
   "themes": [
     {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
-          "id": "magnetosphere-ionosphere"
+          "id": "atmosphere"
         }
       ]
     }
@@ -90,7 +90,7 @@
     "swarm"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
-  "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM",
+  "title": "ADDTID: An Alternative Tool for Stasassasudying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM",
   "extent": {
     "spatial": {
       "bbox": [
@@ -115,5 +115,9 @@
   "keywords": [
     "Sun-Earth Interactions",
     "Ionosphere/Magnetosphere Dynamics"
-  ]
+  ],
+  "providers": [],
+  "summaries": {},
+  "assets": {},
+  "osc:experiment": ""
 }
