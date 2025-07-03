@@ -301,6 +301,12 @@
       "href": "../../products/absolute-sea-level-heights-baltics-sar-hsu/collection.json",
       "type": "application/json",
       "title": "SL-ABS: Absolutdsdsdsdds"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/addit-earthquake-tsunami-tool-costo/collection.json",
+      "type": "application/json",
+      "title": "ADDTID: An Alternative Tool for Stasassasudying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM"
     }
   ],
   "updated": "2024-08-27T17:27:42.198831Z",
