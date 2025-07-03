@@ -29,12 +29,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/absolute-sea-level-heights-baltics-sar-hsu/collection.json",
-      "type": "application/json",
-      "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission"
-    },
-    {
-      "rel": "child",
       "href": "../../products/albedo-circas/collection.json",
       "type": "application/json",
       "title": "Albedo_Regional_S3A/SLSTR"
