@@ -80,10 +80,10 @@
   ],
   "themes": [
     {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
-          "id": "oceans"
+          "id": "atmosphere"
         }
       ]
     }
@@ -97,7 +97,7 @@
     "glonass"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
-  "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission",
+  "title": "SL-ABS: Absolutdsdsdsdds",
   "extent": {
     "spatial": {
       "bbox": [
@@ -123,5 +123,9 @@
     "Sea Surface Topography",
     "Sea Surface Height",
     "Sea Surface Height Anomaly (SSHA)"
-  ]
+  ],
+  "providers": [],
+  "summaries": {},
+  "assets": {},
+  "osc:experiment": ""
 }
