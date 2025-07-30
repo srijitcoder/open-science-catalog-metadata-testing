@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "water-level-amazon-itapeua-ridesat",
   "stac_version": "1.0.0",
-  "description": "prova update r44444",
+  "description": "prova update 01",
   "sci:citation": "Vega GC, Pertierra LR, Olalla-T\u00e1rraga M\u00c1 (2017) Data from: MERRAclim, a high-resolution global dataset of remotely sensed bioclimatic variables for ecological modelling. Dryad Digital Repository.",
   "links": [
     {
@@ -166,6 +166,5 @@
         "host"
       ]
     }
-  ],
-  "sci:doi": "10.80823/np9z-1919"
+  ]
 }
