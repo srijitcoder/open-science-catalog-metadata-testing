@@ -2,5 +2,14 @@
   "id": "07c71864-f4ff-43b6-afc4-64c178d9cde3",
   "foo": "sdddssd",
   "bar": false,
-  "custom": ""
+  "custom": "",
+  "assets": [
+    {
+      "name": "dsfdfdff",
+      "href": "dffdfddf",
+      "roles": [
+        "data"
+      ]
+    }
+  ]
 }
