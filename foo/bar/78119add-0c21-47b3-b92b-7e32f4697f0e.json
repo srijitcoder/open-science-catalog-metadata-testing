@@ -4,9 +4,18 @@
   "bar": false,
   "custom": "",
   "assets": {
-    "google": {
+    "dgfhthrth": {
       "href": "https://www.google.com",
-      "roles": ["data", "metadata"]
+      "roles": [
+        "data",
+        "metadata"
+      ]
+    },
+    "wdwdwdwd": {
+      "href": "wddwwdwd",
+      "roles": [
+        "metadata"
+      ]
     }
   }
 }
