@@ -5,8 +5,8 @@
   "custom": "",
   "assets": {
     "google": {
-      href: "https://www.google.com",
-      roles: ["data", "metadata"]
+      "href": "https://www.google.com",
+      "roles": ["data", "metadata"]
     }
   }
 }
