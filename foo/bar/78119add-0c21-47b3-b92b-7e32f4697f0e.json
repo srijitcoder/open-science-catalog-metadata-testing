@@ -16,6 +16,13 @@
       "roles": [
         "metadata"
       ]
+    },
+    "Image123": {
+      "href": "google.com",
+      "roles": [
+        "data",
+        "metadata"
+      ]
     }
   }
 }
