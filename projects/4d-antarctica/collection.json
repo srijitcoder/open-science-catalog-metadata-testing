@@ -99,9 +99,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/land/catalog.json",
+      "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
-      "title": "Theme: Land"
+      "title": "Theme: Oceans"
     }
   ],
   "stac_extensions": [
@@ -115,7 +115,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "land"
+          "id": "oceans"
         }
       ]
     }
@@ -212,7 +212,7 @@
       ]
     }
   ],
-  "updated": "2026-03-25T14:00:45Z",
+  "updated": "2026-03-25T14:04:20Z",
   "title": "4D-ANTARCTICA",
   "extent": {
     "spatial": {
