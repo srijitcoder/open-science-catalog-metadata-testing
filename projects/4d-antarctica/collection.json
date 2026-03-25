@@ -99,9 +99,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/cryosphere/catalog.json",
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
       "type": "application/json",
-      "title": "Theme: Cryosphere"
+      "title": "Theme: Magnetosphere Ionosphere"
     }
   ],
   "stac_extensions": [
@@ -115,7 +115,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "cryosphere"
+          "id": "magnetosphere-ionosphere"
         }
       ]
     }
@@ -212,7 +212,7 @@
       ]
     }
   ],
-  "updated": "2026-03-25T12:28:11Z",
+  "updated": "2026-03-25T13:37:56Z",
   "title": "4D-ANTARCTICA",
   "extent": {
     "spatial": {
