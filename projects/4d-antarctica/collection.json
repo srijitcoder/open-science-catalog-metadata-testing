@@ -99,9 +99,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
-      "title": "Theme: Magnetosphere Ionosphere"
+      "title": "Theme: Solid Earth"
     }
   ],
   "stac_extensions": [
@@ -115,7 +115,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "magnetosphere-ionosphere"
+          "id": "solid-earth"
         }
       ]
     }
@@ -212,7 +212,7 @@
       ]
     }
   ],
-  "updated": "2026-03-25T13:37:56Z",
+  "updated": "2026-03-25T13:46:17Z",
   "title": "4D-ANTARCTICA",
   "extent": {
     "spatial": {
