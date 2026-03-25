@@ -99,9 +99,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
-      "title": "Theme: Oceans"
+      "title": "Theme: Atmosphere"
     }
   ],
   "stac_extensions": [
@@ -115,7 +115,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "oceans"
+          "id": "atmosphere"
         }
       ]
     }
@@ -212,7 +212,7 @@
       ]
     }
   ],
-  "updated": "2026-03-25T14:04:20Z",
+  "updated": "2026-03-25T14:04:56Z",
   "title": "4D-ANTARCTICA",
   "extent": {
     "spatial": {
