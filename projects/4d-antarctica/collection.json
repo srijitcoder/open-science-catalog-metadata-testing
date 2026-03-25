@@ -99,9 +99,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
+      "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
-      "title": "Theme: Oceans"
+      "title": "Theme: Solid Earth"
     }
   ],
   "stac_extensions": [
@@ -115,7 +115,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "oceans"
+          "id": "solid-earth"
         }
       ]
     }
@@ -212,7 +212,7 @@
       ]
     }
   ],
-  "updated": "2026-03-25T14:06:13Z",
+  "updated": "2026-03-25T14:18:45Z",
   "title": "4D-ANTARCTICA",
   "extent": {
     "spatial": {
