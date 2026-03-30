@@ -1820,6 +1820,12 @@
       "href": "./worldcereal_crop_extent_product/collection.json",
       "type": "application/json",
       "title": "WorldCereal - Crop Extent - Product - Belgium"
+    },
+    {
+      "rel": "child",
+      "href": "./fdfdfd/collection.json",
+      "type": "application/json",
+      "title": "fdfdfd"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
