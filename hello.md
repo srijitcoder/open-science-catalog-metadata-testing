@@ -1,4 +1,4 @@
-# The Global Journey of Cricket <!--{ as="img" mode="hero" src="https://loremflickr.com/1920/1080/cricket,grass,pitch" }-->
+# The Global <!--{ as="img" mode="hero" src="https://loremflickr.com/1920/1080/cricket,grass,pitch" }-->
 #### An exploration of the historic sport, its evolution from an English pastoral pastime to a global phenomenon that unites millions across continents.
 
 ## The Spirit of the Game
