@@ -1,7 +1,7 @@
 # The Beautiful Game <!--{ as="img" mode="hero" src="https://loremflickr.com/1920/1080/football,stadium,pitch" }-->
 #### An exploration of football, the world's most popular sport, tracing its journey from humble local origins to the pinnacle of global sporting culture.
 
-## The Global Language
+## The Global Languages
 Football, or soccer, is often described as the world's universal language. With roots stretching back to ancient ball games, the modern iteration of the sport was codified in 19th-century England, quickly spreading across the globe to become a defining element of national identity and community. It is a sport of simplicity, requiring little more than a ball and a patch of ground to transform into a high-stakes arena. From the tactical chess matches of professional leagues to the raw passion of street-level kickabouts, football encompasses a vast spectrum of human experience. This narrative follows the evolution of the sport, the architectural marvels that serve as its cathedrals, and the socioeconomic impact it wields on every continent it touches.
 
 ## Cathedrals of Football <!--{ as="img" mode="tour" position="right" }-->
