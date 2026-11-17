@@ -1,0 +1,97 @@
+{
+  "type": "Collection",
+  "id": "pan-european-high-resolution-aboveground-fore",
+  "stac_version": "1.0.0",
+  "title": "Pan-European High-Resolution Aboveground Forest Biomass",
+  "description": "High-resolution pan-European aboveground forest biomass dataset derived from multi-temporal Sentinel-1 C-band SAR and Sentinel-2 optical imagery.",
+  "license": "CC-BY-4.0",
+  "osc:type": "product",
+  "osc:project": "forest-carbon-europe",
+  "osc:status": "completed",
+  "osc:region": "Europe",
+  "osc:variables": [
+    "Aboveground Biomass"
+  ],
+  "osc:missions": [
+    "Sentinel-1",
+    "Sentinel-2"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Land"
+        }
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10.5,
+          34.5,
+          31.5,
+          71.2
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/forest-carbon-europe/collection.json",
+      "type": "application/json",
+      "title": "Project: Forest Carbon Dynamics in Europe"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/Land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/Aboveground Biomass/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Aboveground Biomass"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    }
+  ]
+}
