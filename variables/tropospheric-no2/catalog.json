@@ -1,0 +1,27 @@
+{
+  "type": "Catalog",
+  "id": "tropospheric-no2",
+  "stac_version": "1.0.0",
+  "title": "Tropospheric-No2",
+  "description": "OSC Variable tropospheric-no2",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tropomi-high-resolution-tropospheric-no2-colu/collection.json",
+      "type": "application/json",
+      "title": "TROPOMI High-Resolution Tropospheric NO2 Column over Europe"
+    }
+  ]
+}
