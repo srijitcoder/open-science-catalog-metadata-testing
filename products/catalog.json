@@ -2216,6 +2216,12 @@
       "href": "./morlenn_mld/collection.json",
       "type": "application/json",
       "title": "Morlenn Mixed Layer Properties"
+    },
+    {
+      "rel": "child",
+      "href": "./mediterranean-coastal-water-quality-chl-a-tsm/collection.json",
+      "type": "application/json",
+      "title": "Mediterranean Coastal Water Quality (Chl-a & TSM)"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

@@ -1,0 +1,71 @@
+{
+  "type": "Collection",
+  "id": "med-coastal-wq",
+  "stac_version": "1.0.0",
+  "title": "Mediterranean Coastal Water Quality Monitoring Initiative",
+  "description": "ESA Earth Observation research project monitoring coastal water quality, Chlorophyll-a concentration, and total suspended matter across Mediterranean nearshore zones.",
+  "license": "various",
+  "osc:type": "project",
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Oceans"
+        }
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.5,
+          30,
+          36.5,
+          46
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2025-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mediterranean-coastal-water-quality-chl-a-tsm/collection.json",
+      "type": "application/json",
+      "title": "Mediterranean Coastal Water Quality (Chl-a & TSM)"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/Oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }
+  ]
+}
