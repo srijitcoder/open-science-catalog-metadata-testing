@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "coastal-water-quality-and-turbidity-dynamics",
+  "stac_version": "1.0.0",
+  "title": "Coastal Water Quality and Turbidity Dynamics",
+  "description": "High-resolution Sentinel-2 and Sentinel-3 observations for monitoring coastal water turbidity, chlorophyll concentrations, and sediment plumes along European coastal zones.",
+  "license": "CC-BY-4.0",
+  "osc:type": "product",
+  "osc:project": "project-coastal-dynamics",
+  "osc:status": "completed",
+  "osc:region": "Greenland",
+  "osc:variables": [
+    "Ocean Colour"
+  ],
+  "osc:missions": [
+    "Sentinel-2",
+    "Sentinel-3"
+  ],
+  "created": "2026-11-17T14:03:07Z",
+  "updated": "2026-11-17T14:03:07Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Oceans"
+        }
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -60,
+          59.5,
+          -18,
+          83.5
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/project-coastal-dynamics/collection.json",
+      "type": "application/json",
+      "title": "Project: Coastal Dynamics and Water Quality Observatory"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/Oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/Ocean Colour/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Colour"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SENTINEL-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SENTINEL-3"
+    }
+  ]
+}
