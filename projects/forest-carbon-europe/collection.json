@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "id": "forest-carbon-europe",
+  "stac_version": "1.0.0",
+  "title": "Forest Carbon Dynamics in Europe",
+  "description": "ESA Earth Observation research project investigating forest carbon dynamics, structure, and biomass estimation across European forest ecosystems using Sentinel-1 and Sentinel-2 data.",
+  "license": "various",
+  "osc:type": "project",
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "ESA EarthCODE Science Team",
+      "organization": "European Space Agency (ESA)",
+      "roles": [
+        "principal_investigator"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10.5,
+          34.5,
+          31.5,
+          71.2
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/pan-european-high-resolution-aboveground-fore/collection.json",
+      "type": "application/json",
+      "title": "Aboveground Forest Biomass"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/",
+      "type": "text/html",
+      "title": "Website"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/Land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ]
+}
