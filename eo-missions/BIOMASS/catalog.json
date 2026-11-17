@@ -1,0 +1,28 @@
+{
+  "type": "Catalog",
+  "id": "BIOMASS",
+  "stac_version": "1.0.0",
+  "title": "BIOMASS",
+  "description": "EO Mission BIOMASS",
+  "updated": "2026-11-17T11:29:22Z",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/global-forest-above-ground-biomass-estimates/collection.json",
+      "type": "application/json",
+      "title": "Global Forest Above-Ground Biomass Estimates"
+    }
+  ]
+}
