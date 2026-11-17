@@ -1,0 +1,97 @@
+{
+  "type": "Collection",
+  "id": "mediterranean-coastal-water-quality-chl-a-tsm",
+  "stac_version": "1.0.0",
+  "title": "Mediterranean Coastal Water Quality (Chl-a & TSM)",
+  "description": "High-resolution multi-sensor coastal water quality product monitoring Chlorophyll-a and Total Suspended Matter along Mediterranean coastal zones derived from Sentinel-2 and Sentinel-3 observations.",
+  "license": "CC-BY-4.0",
+  "osc:type": "product",
+  "osc:project": "med-coastal-wq",
+  "osc:status": "ongoing",
+  "osc:region": "Mediterranean Sea",
+  "osc:variables": [
+    "Ocean Colour"
+  ],
+  "osc:missions": [
+    "Sentinel-2",
+    "Sentinel-3"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Oceans"
+        }
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.5,
+          30,
+          36.5,
+          46
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2025-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/med-coastal-wq/collection.json",
+      "type": "application/json",
+      "title": "Project: Mediterranean Coastal Water Quality Monitoring Initiative"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/Oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/Ocean Colour/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ocean Colour"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-3/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-3"
+    }
+  ]
+}
