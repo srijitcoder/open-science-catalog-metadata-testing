@@ -68,7 +68,7 @@
       "rel": "child",
       "href": "../../products/pan-european-high-resolution-aboveground-fore/collection.json",
       "type": "application/json",
-      "title": "Pan-European High-Resolution Aboveground Forest Biomass"
+      "title": "Aboveground Forest Biomass"
     },
     {
       "rel": "via",

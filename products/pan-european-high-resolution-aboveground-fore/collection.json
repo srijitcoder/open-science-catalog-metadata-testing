@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "pan-european-high-resolution-aboveground-fore",
   "stac_version": "1.0.0",
-  "title": "Pan-European High-Resolution Aboveground Forest Biomass",
+  "title": "Aboveground Forest Biomass",
   "description": "High-resolution pan-European aboveground forest biomass dataset derived from multi-temporal Sentinel-1 C-band SAR and Sentinel-2 optical imagery.",
   "license": "CC-BY-4.0",
   "osc:type": "product",
