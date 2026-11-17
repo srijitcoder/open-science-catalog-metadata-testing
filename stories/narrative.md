@@ -4,7 +4,7 @@
 
 Our oceans cover over seventy percent of the Earth's surface, acting as the primary engine for global climate regulation, heat distribution, and carbon cycling. Yet, traditional in-situ oceanographic measurements—collected by sparse networks of buoys, research vessels, and drifting floats—leave vast expanses of the marine realm unmonitored in real time. 
 
-To bridge this observational gap, scientists and space agencies increasingly rely on advanced synthetic and modeled Earth observation data. By fusing spaceborne altimetry, sea surface temperature radiometry, and ocean color sensing with rigorous hydrodynamic modeling, we can visualize the ocean not merely as a static body of water, but as a dynamic, breathing fluid system.
+To bridge this observational gap, sciedddntists and space agencies increasingly rely on advanced synthetic and modeled Earth observation data. By fusing spaceborne altimetry, sea surface temperature radiometry, and ocean color sensing with rigorous hydrodynamic modeling, we can visualize the ocean not merely as a static body of water, but as a dynamic, breathing fluid system.
 
 ---
 
