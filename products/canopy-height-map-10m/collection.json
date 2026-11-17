@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "canopy-height-map-10m",
+  "stac_version": "1.0.0",
+  "title": "Canopy Height Map 10m",
+  "description": "High-resolution pan-European forest canopy height maps derived from Sentinel-2 multi-spectral imagery and GEDI spaceborne LiDAR data.",
+  "license": "CC-BY-4.0",
+  "osc:type": "product",
+  "osc:project": "forest-canopy-dynamics",
+  "osc:status": "completed",
+  "osc:region": "Europe",
+  "osc:variables": [
+    "biomass"
+  ],
+  "osc:missions": [
+    "Sentinel-2"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Forests"
+        }
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -60,
+          59.5,
+          -18,
+          83.5
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/forest-canopy-dynamics/collection.json",
+      "type": "application/json",
+      "title": "Project: Forest Canopy Dynamics and Biomass Estimation"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/Forests/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Forests"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/biomass/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Biomass"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SENTINEL-2"
+    }
+  ]
+}
