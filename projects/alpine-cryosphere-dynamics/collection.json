@@ -1,0 +1,100 @@
+{
+  "type": "Collection",
+  "id": "alpine-cryosphere-dynamics",
+  "stac_version": "1.0.0",
+  "title": "Alpine Cryosphere Dynamics Project",
+  "description": "ESA Earth Observation research project investigating sub-seasonal and interannual ice sheet dynamics, basal melt, and surface velocity across Greenland and Antarctica.",
+  "license": "various",
+  "osc:type": "project",
+  "osc:status": "completed",
+  "updated": "2026-11-17T10:33:22Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Silvester Pari",
+      "organization": "ESA / EarthCODE Science Team",
+      "emails": [
+        {
+          "value": "sp@eox.at"
+        }
+      ],
+      "roles": [
+        "principal_investigator",
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "ESA Technical Officer",
+      "organization": "European Space Agency (ESA-ESRIN)",
+      "roles": [
+        "technical_officer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -60,
+          59.5,
+          -18,
+          83.5
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/alpine-glacier-extent-and-albedo-monitoring/collection.json",
+      "type": "application/json",
+      "title": "Alpine Glacier Extent and Albedo Monitoring"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/",
+      "type": "text/html",
+      "title": "Website"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ]
+}
