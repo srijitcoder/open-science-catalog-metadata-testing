@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "id": "project-urban-no2-monitoring",
+  "stac_version": "1.0.0",
+  "title": "Urban Atmospheric NO2 Dynamics Project",
+  "description": "ESA Earth Observation research project investigating sub-seasonal and regional atmospheric tropospheric NO2 column variations across urban and industrial corridors in Europe using Sentinel-5P TROPOMI observations.",
+  "license": "various",
+  "osc:type": "project",
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10,
+          35,
+          30,
+          70
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/tropomi-high-resolution-tropospheric-no2-colu/collection.json",
+      "type": "application/json",
+      "title": "TROPOMI High-Resolution Tropospheric NO2 Column over Europe"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    }
+  ]
+}
