@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "id": "global-canopy-height-from-sentinel-2-and-gedi",
+  "stac_version": "1.0.0",
+  "title": "Global Canopy Height from Sentinel-2 and GEDI",
+  "description": "Global high-resolution canopy height and above-ground biomass estimates derived from Sentinel-2 optical multispectral imagery and GEDI LiDAR observations.",
+  "license": "CC-BY-4.0",
+  "osc:type": "product",
+  "osc:project": "forest-carbon-monitoring",
+  "osc:status": "completed",
+  "osc:region": "Greenland",
+  "osc:variables": [
+    "Biomass"
+  ],
+  "osc:missions": [
+    "Sentinel-2"
+  ],
+  "created": "2026-11-17T12:01:32Z",
+  "updated": "2026-11-17T12:01:32Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Forests"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "land_ice_surface_velocity",
+      "unit": "m year-1"
+    }
+  ],
+  "keywords": [
+    "cryosphere",
+    "greenland",
+    "ice-velocity",
+    "sar",
+    "altimetry"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -60,
+          59.5,
+          -18,
+          83.5
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "assets": {
+    "greenland-vel-2024.zarr": {
+      "href": "https://eoresults.esa.int/archive/cryo/greenland-vel-2024.zarr",
+      "title": "Greenland Ice Velocity 2024 Zarr Store (42.8 GB)",
+      "type": "application/vnd+zarr",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/forest-carbon-monitoring/collection.json",
+      "type": "application/json",
+      "title": "Project: Forest Carbon Monitoring Project"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/Forests/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Forests"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/Biomass/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Biomass"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/Sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SENTINEL-2"
+    },
+    {
+      "rel": "via",
+      "href": "https://eoresults.esa.int/archive/cryo/stac/catalog.json",
+      "type": "application/json",
+      "title": "Access (ESA PRR External STAC Catalog)"
+    },
+    {
+      "rel": "child",
+      "href": "https://eoresults.esa.int/archive/cryo/stac/catalog.json",
+      "type": "application/json",
+      "title": "PRR STAC Items Archive"
+    },
+    {
+      "rel": "via",
+      "href": "https://earthcode.esa.int/docs/cryo-dynamics/greenland-velocity-2024.pdf",
+      "type": "application/pdf",
+      "title": "Documentation"
+    }
+  ],
+  "sci:doi": "10.5270/esa-cryo-vel-2024"
+}
