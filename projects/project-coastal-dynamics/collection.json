@@ -1,0 +1,71 @@
+{
+  "type": "Collection",
+  "id": "project-coastal-dynamics",
+  "stac_version": "1.0.0",
+  "title": "Coastal Dynamics and Water Quality Observatory",
+  "description": "ESA Earth Observation research project investigating sub-seasonal and interannual coastal dynamics and water quality.",
+  "license": "various",
+  "osc:type": "project",
+  "osc:status": "completed",
+  "updated": "2026-11-17T14:03:07Z",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Oceans"
+        }
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -60,
+          59.5,
+          -18,
+          83.5
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/coastal-water-quality-and-turbidity-dynamics/collection.json",
+      "type": "application/json",
+      "title": "Coastal Water Quality and Turbidity Dynamics"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/Oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }
+  ]
+}
