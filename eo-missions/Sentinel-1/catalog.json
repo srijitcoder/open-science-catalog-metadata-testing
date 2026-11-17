@@ -1,0 +1,28 @@
+{
+  "type": "Catalog",
+  "id": "Sentinel-1",
+  "stac_version": "1.0.0",
+  "title": "SENTINEL-1",
+  "description": "EO Mission Sentinel-1",
+  "updated": "2026-11-17T10:43:57Z",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalogue"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/greenland-ice-sheet-velocity-mosaic/collection.json",
+      "type": "application/json",
+      "title": "Greenland Ice Sheet Velocity Mosaic"
+    }
+  ]
+}

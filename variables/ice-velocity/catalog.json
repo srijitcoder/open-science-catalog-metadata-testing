@@ -2,36 +2,13 @@
   "type": "Catalog",
   "id": "ice-velocity",
   "stac_version": "1.0.0",
-  "description": "Pertaining to the rate at which ice formations (glaciers, ice sheets, etc.) are moving. [NOAA Satellite and Information Service]",
+  "title": "Ice Velocity",
   "links": [
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ice-velocity/catalog.json",
-      "type": "application/json"
-    },
     {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalogue"
-    },
-    {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/cee7ed2f-3ed1-44ad-b48b-513a68bb3244?gtm_keyword=ICE%20VELOCITY&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/3896f032-388f-408e-b988-bf7e100704ba?gtm_keyword=ICE%20VELOCITY&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/ice-sheet-velocity-antarctic-2021/collection.json",
-      "type": "application/json",
-      "title": "Antarctic Ice Sheet monthly ice velocity"
     },
     {
       "rel": "parent",
@@ -40,32 +17,11 @@
       "title": "Variables"
     },
     {
-      "rel": "related",
-      "href": "../../themes/cryosphere/catalog.json",
-      "type": "application/json",
-      "title": "Theme: Cryosphere"
-    },
-    {
       "rel": "child",
-      "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
+      "href": "../../products/greenland-ice-sheet-velocity-mosaic/collection.json",
       "type": "application/json",
-      "title": "AI4AIS Larsen C ice shelf cube"
+      "title": "Greenland Ice Sheet Velocity Mosaic"
     }
   ],
-  "stac_extensions": [
-    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
-  ],
-  "themes": [
-    {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
-      "concepts": [
-        {
-          "id": "cryosphere"
-        }
-      ]
-    }
-  ],
-  "updated": "2024-09-12T20:23:29.837131Z",
-  "keywords": [],
-  "title": "Ice Velocity"
+  "updated": "2026-11-17T10:43:55Z"
 }
