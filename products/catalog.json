@@ -20,7 +20,7 @@
       "rel": "child",
       "href": "./canopy-height-map-10m/collection.json",
       "type": "application/json",
-      "title": "Canopy Height Map"
+      "title": "Canopy Height Map 10m"
     }
   ]
 }

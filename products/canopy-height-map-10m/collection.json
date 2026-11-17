@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "canopy-height-map-10m",
   "stac_version": "1.0.0",
-  "title": "Canopy Height Map",
+  "title": "Canopy Height Map 10m",
   "description": "High-resolution pan-European forest canopy height maps derived from Sentinel-2 multi-spectral imagery and GEDI spaceborne LiDAR data.",
   "license": "CC-BY-4.0",
   "osc:type": "product",
