@@ -3,7 +3,7 @@
 ![Open ocean surface](https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2000&q=80)
 *Photo by [Sean Oulashin](https://unsplash.com/@oulashin) on [Unsplash](https://unsplash.com)*
 
-Synthetic Aperture Radar (SAR)ss sensors, such as the European Space Agency's Sentinel-1 constellation, provide continuous, day-and-night, all-weather monitoring of our global oceans. By illuminating Earth's surface with microwave pulses, SAR captures fine-scale sea-surface roughness, revealing vessel traffic, ocean fronts, internal waves, and environmental hazards even through cloud cover and polar darkness.
+Synthetic Aperture sRadar (SAR)ss sensors, such as the European Space Agency's Sentinel-1 constellation, provide continuous, day-and-night, all-weather monitoring of our global oceans. By illuminating Earth's surface with microwave pulses, SAR captures fine-scale sea-surface roughness, revealing vessel traffic, ocean fronts, internal waves, and environmental hazards even through cloud cover and polar darkness.
 
 ---
 
