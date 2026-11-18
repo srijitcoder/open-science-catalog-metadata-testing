@@ -7,7 +7,7 @@ Synthetic Aperture sRadar (SAR)ss sensors, such as the European Space Agency's S
 
 ---
 
-## Observing Ocean Dynamics with Radar <!--{ as="eox-map" projection="EPSG:3857" zoom=3 center=[0,20] }-->
+## Observing Oceasxsn Dynamics with Radar <!--{ as="eox-map" projection="EPSG:3857" zoom=3 center=[0,20] }-->
 
 ```json
 [
